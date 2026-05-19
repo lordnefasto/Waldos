@@ -1,12 +1,12 @@
 @echo off
 setlocal EnableExtensions
-set "MPMissionsCache=%LOCALAPPDATA%\Arma 3\MPMissionsCache\Apex_framework_156.Altis.pbo"
+set "MPMissionsCache=%LOCALAPPDATA%\Arma 3\MPMissionsCache\Waldos.pbo"
 
 rem =========================
 rem ORIGEN Y DESTINO
 rem =========================
 set "src=%CD%"
-set "target=%USERPROFILE%\Desktop\TOPE\Apex_framework_156.Altis"
+set "target=%USERPROFILE%\Desktop\TOPE\Waldos.Altis"
 
 echo ======================================
 echo Exportando "%src%"
