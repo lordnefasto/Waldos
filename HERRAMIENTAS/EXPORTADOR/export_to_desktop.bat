@@ -5,7 +5,7 @@ set "MPMissionsCache=%LOCALAPPDATA%\Arma 3\MPMissionsCache\Waldos.pbo"
 rem =========================
 rem ORIGEN Y DESTINO
 rem =========================
-set "src=%CD%"
+set "src=%~dp0..\.."
 set "target=%USERPROFILE%\Desktop\TOPE\Waldos.Altis"
 
 echo ======================================
