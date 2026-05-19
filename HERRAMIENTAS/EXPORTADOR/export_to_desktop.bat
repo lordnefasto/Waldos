@@ -5,8 +5,8 @@ set "MPMissionsCache=%LOCALAPPDATA%\Arma 3\MPMissionsCache\Waldos.pbo"
 rem =========================
 rem ORIGEN Y DESTINO
 rem =========================
-set "src=%CD%"
-set "target=%USERPROFILE%\Desktop\TOPE\Waldos.Altis"
+for %%I in ("%~dp0..\..") do set "src=%%~fI"
+set "target=%USERPROFILE%\Desktop\TOPE\Waldos"
 
 echo ======================================
 echo Exportando "%src%"
@@ -26,7 +26,7 @@ rem =========================
 rem COPIAR ARCHIVOS
 rem =========================
 xcopy "%src%\*" "%target%\" /E /I /H /Y ^
- /EXCLUDE:export_exclude.txt
+/EXCLUDE:export_exclude.txt
 
 if errorlevel 1 (
     echo ERROR: Fallo en la copia
