@@ -6,7 +6,7 @@ rem =========================
 rem ORIGEN Y DESTINO
 rem =========================
 set "src=%CD%"
-set "target=%USERPROFILE%\Desktop\TOPE\Waldos.Altis"
+set "target=%USERPROFILE%\Desktop\TOPE\Waldos"
 
 echo ======================================
 echo Exportando "%src%"
