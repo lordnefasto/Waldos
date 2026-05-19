@@ -1,0 +1,5 @@
+.git
+.gitattributes
+export_to_desktop.bat
+export_exclude.txt
+HERRAMIENTAS
