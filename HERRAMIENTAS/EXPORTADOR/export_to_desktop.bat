@@ -6,7 +6,7 @@ rem =========================
 rem ORIGEN Y DESTINO
 rem =========================
 for %%I in ("%~dp0..\..") do set "src=%%~fI"
-set "target=%USERPROFILE%\Desktop\TOPE\Waldos"
+set "target=%USERPROFILE%\Desktop\TOPE\Waldos.Altis"
 
 echo ======================================
 echo Exportando "%src%"
